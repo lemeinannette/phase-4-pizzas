@@ -1,0 +1,71 @@
+/* Form.css */
+
+/* Form Container Style */
+.form-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Pizza Form Style */
+  .pizza-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label Style */
+  label {
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Select and Input Style */
+  select,
+  input {
+    margin-bottom: 20px;
+    padding: 14px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  /* Select Container Style */
+  .select-container {
+    position: relative;
+  }
+  
+  /* Custom Select Arrow */
+  .select-container::before {
+    content: '\25BC';
+    font-size: 24px;
+    color: #666;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  /* Error Message Style */
+  .error-message {
+    color: #ff6347;
+    margin-bottom: 12px;
+  }
+  
+  /* Submit Button Style */
+  .submit-button {
+    background-color: #00796b;
+    color: #fff;
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Submit Button Hover Style */
+  .submit-button:hover {
+    background-color: #004d40;
+  }
